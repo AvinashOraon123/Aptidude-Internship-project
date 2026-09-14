@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / runnable
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and Models (Large files > 25MB)
+# These are excluded to keep the repo lightweight
+toy_data.db
+outputs/tables/*.csv
+outputs/tables/*.pkl
+data/raw/
+data/interim/
+data/processed/
+models/*.pkl
+models/*.h5
+
+# Documentation and Screenshots (Optional, but usually large)
+Screenshots/
+outputs/figures/
+
+# IDEs
+.vscode/
+.idea/
